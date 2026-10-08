@@ -1,0 +1,19 @@
+:root { font-family: system-ui, sans-serif; color: #193138; background: #eff5f3; }
+body { margin: 0; min-height: 100vh; display: grid; place-items: center; }
+.panel { box-sizing: border-box; width: min(92vw, 540px); padding: clamp(24px, 5vw, 48px); background: white; border-radius: 18px; box-shadow: 0 16px 55px #1931381a; }
+.eyebrow { margin: 0; color: #14766d; font-size: .78rem; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
+h1 { margin: 12px 0; font-size: clamp(1.8rem, 5vw, 2.6rem); line-height: 1.1; }
+.intro, .privacy { color: #536b71; line-height: 1.55; }
+form { display: grid; gap: 12px; margin: 30px 0; }
+label { font-weight: 700; }
+input { padding: 16px; border: 1px solid #b9cfcb; border-radius: 9px; background: #f9fcfb; }
+button { border: 0; border-radius: 9px; padding: 14px 20px; color: white; background: #086d63; font: inherit; font-weight: 700; cursor: pointer; }
+button:disabled { opacity: .55; cursor: not-allowed; }
+.message { padding: 15px; border-radius: 9px; line-height: 1.6; overflow-wrap: anywhere; }
+.success { background: #e4f5ed; color: #145a39; }
+.error { background: #fff0ed; color: #a33727; }
+.privacy { margin: 24px 0 0; font-size: .85rem; }
+.transcription { margin-top: 20px; border-top: 1px solid #b7dbca; padding-top: 12px; }
+.transcription h2 { font-size: 1.1rem; margin: 0; }
+.transcription p { margin: 8px 0; font-size: .85rem; }
+.transcription pre { margin: 0; padding: 14px; max-height: 420px; overflow: auto; white-space: pre-wrap; overflow-wrap: anywhere; background: #f8fcfa; border-radius: 8px; font: .86rem/1.5 ui-monospace, SFMono-Regular, Consolas, monospace; color: #193138; }
